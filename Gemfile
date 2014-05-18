@@ -12,6 +12,8 @@ gem 'slim-rails'
 
 gem 'devise'
 
+gem 'devise'
+
 group :development do
   gem 'pry'
   gem 'spring'
