@@ -1,0 +1,16 @@
+= title "Cattr"
+
+.inner
+  .max-width
+    .cta Push button. Recieve Cat.
+    = button_to serve_cats_path, method: :post, id: "cat_button", class: "button" do
+      i.fa.fa-paw
+      | Cat Me
+
+javascript:
+  $(".inner form").submit(function() {
+    $("#cat_button").
+      addClass("disabled").
+      attr("disabled", true).
+      html("<i class='fa fa-spinner fa-spin'></i>Herding Cats…");
+  });

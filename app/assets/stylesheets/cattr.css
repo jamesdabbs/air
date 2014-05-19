@@ -1,0 +1,119 @@
+* { margin: 0; padding: 0 }
+
+.clear { clear: both; }
+
+html { height: 100%; }
+
+body {
+  margin: auto;
+  line-height: 1.5;
+  height: 100%;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  color: #2d2d2d;
+  -webkit-text-size-adjust:none;
+}
+
+.cta {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #2d2d2d;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #6c6c6c;
+}
+
+a:active {
+  position: relative;
+  top: 1px;
+}
+
+.button {
+  border: 2px solid #2d2d2d;
+  border-radius: 6px;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 0.813rem;
+  margin-top: 20px;
+  text-shadow: none;
+  text-decoration: none;
+  margin-left: 20px;
+  border-color: #fff;
+  color: #fff;
+}
+
+.button:hover {
+  background: rgba(255,255,255,0.1);
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.disabled {
+  background: rgba(255,255,255,0.1);
+  text-shadow: none;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border-top: 1px solid #ccc;
+  display: table;
+  width: 100%;
+  background: #090f13;
+  color: #fff;
+  border-top: none;
+  position: relative;
+  min-height: 350px;
+  background: url("/kitten.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+}
+
+.container .inner {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5% 0;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -ms-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  background: rgba(0,0,0,0.2);
+}
+
+.container .inner .max-width {
+  margin: auto;
+  width: 90%;
+  max-width: 968px;
+}
+
+.fa {
+ margin-right: 0.5em;
+}

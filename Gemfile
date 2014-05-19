@@ -12,13 +12,18 @@ gem 'slim-rails'
 
 gem 'devise'
 
-gem 'devise'
+gem 'httparty'
+gem 'nokogiri'
 
 group :development do
   gem 'pry'
   gem 'spring'
+  gem 'spring-commands-rspec'
 end
 
 group :test do
+  gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'launchy' # For save_and_open_page
   gem 'rspec-rails'
 end
