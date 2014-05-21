@@ -33,7 +33,7 @@ Note that (in the interest of not actually depending on outside services), "serv
 * [x] Make sure specs still pass
 * [x] Bonus: find a better way of spec'ing the `open` system call
 * [x] Install a job administration system
-* [ ] Determine appropriate failure / retry logic
+* [x] Determine appropriate failure / retry logic
 
 ## Attributions
 
