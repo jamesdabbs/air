@@ -30,7 +30,7 @@ Note that (in the interest of not actually depending on outside services), "serv
 
 * [x] Select a queue backend
 * [x] Run `CatRequest#fulfill!` in the background
-* [ ] Make sure specs still pass
+* [x] Make sure specs still pass
 * [x] Bonus: find a better way of spec'ing the `open` system call
 * [ ] Install a job administration system
 * [ ] Determine appropriate failure / retry logic

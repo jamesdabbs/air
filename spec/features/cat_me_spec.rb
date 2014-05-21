@@ -15,8 +15,11 @@ describe "Requesting a cat" do
   end
 
   it "fulfills a cat request" do
+    expect( @user.cat_requests ).to be_empty
+
     click_on "Cat Me"
     req = @user.cat_requests.last
+
     expect( req.cat ).to be_present
     expect( Air.shell.history.last ).to match /open.*#{req.cat.download_path}/
   end
