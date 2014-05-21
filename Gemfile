@@ -16,6 +16,7 @@ gem 'httparty'
 gem 'nokogiri'
 
 gem 'sidekiq'
+gem 'sinatra'
 
 group :development do
   gem 'pry'
