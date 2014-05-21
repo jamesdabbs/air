@@ -15,6 +15,8 @@ gem 'devise'
 gem 'httparty'
 gem 'nokogiri'
 
+gem 'sidekiq'
+
 group :development do
   gem 'pry'
   gem 'spring'
